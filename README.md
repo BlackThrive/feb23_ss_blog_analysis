@@ -1,4 +1,4 @@
-# feb23_ss_blog_analysis
+# Data and analysis files for statistics in Black Thrive blog 2nd Feb 23
 
 Data and analysis scripts for statistics cited in Black Thrive's blog posted on 2nd February 2023.
 
