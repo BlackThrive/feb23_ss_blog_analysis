@@ -20,11 +20,11 @@ legislation <- data %>%
 
 # make into html table and save
 kable_table <- kable(legislation,
-                     caption = "Stop and search records by legislation, Jan 2017-Dec 2021",
+                     caption = "Table 1: Stop and search records by legislation, Jan 2017-Dec 2021",
                      col.names = c("Legislation","Number of stops","Percentage of stops")) %>%
   kable_styling(full_width = F)
 
 save_kable(kable_table, file = "./outputs/legislation_table.html")
 # save_kable(kable_table, file = "./outputs/legislation_table.pdf")
-# save_kable(kable_table, file = "./outputs/legislation_table.png")
+save_kable(kable_table, file = "./outputs/legislation_table.png")
 
